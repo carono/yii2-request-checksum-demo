@@ -16,6 +16,7 @@ $config = [
             'class' => \carono\checksum\Request::class,
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'X5I0HeA5zrYMcLvyxryf5c-OSxo6mCSf',
+            'checksumKey' => 'IfYHshNFtXRSxpDxttQGyppHREU30HUC'
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',

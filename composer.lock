@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6f24d35f9fab879387e95e77ba155c8",
+    "content-hash": "30876cbf86028a7df597f9c70086a7e6",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -109,20 +109,20 @@
         },
         {
             "name": "carono/yii2-request-checksum",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/carono/yii2-request-checksum.git",
-                "reference": "02a3f40a25bef2c5f8f4009072651338f9487315"
+                "reference": "836d3127e10a90ab80cd88aab7d5f67848bcf63a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carono/yii2-request-checksum/zipball/02a3f40a25bef2c5f8f4009072651338f9487315",
-                "reference": "02a3f40a25bef2c5f8f4009072651338f9487315",
+                "url": "https://api.github.com/repos/carono/yii2-request-checksum/zipball/836d3127e10a90ab80cd88aab7d5f67848bcf63a",
+                "reference": "836d3127e10a90ab80cd88aab7d5f67848bcf63a",
                 "shasum": ""
             },
             "require": {
-                "ext-dom": "20031129",
+                "ext-dom": "*",
                 "yiisoft/yii2": "^2.0"
             },
             "type": "library",
@@ -143,7 +143,7 @@
                 }
             ],
             "description": "Checksum request for forms",
-            "time": "2018-09-01T14:46:45+00:00"
+            "time": "2018-10-22T08:06:42+00:00"
         },
         {
             "name": "cebe/markdown",
